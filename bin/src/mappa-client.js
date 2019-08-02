@@ -5,7 +5,7 @@ let setServerStatus = (payload) => {
     const options = {
         url: constants.serverUrl,
         headers: {
-            'Authorization': 'Basic' + constants.staticToken
+            'Authorization': 'Basic ' + constants.staticToken
         },
         method: 'POST',
         json: payload
