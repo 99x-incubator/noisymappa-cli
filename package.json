@@ -1,0 +1,26 @@
+{
+  "name": "noisymappa-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/noisymappa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mappa": "./bin/noisymappa.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99xt-incubator/noisymappa-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/99xt-incubator/noisymappa-cli/issues"
+  },
+  "homepage": "https://github.com/99xt-incubator/noisymappa-cli#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "request": "^2.88.0"
+  }
+}
